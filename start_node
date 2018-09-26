@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run --detach --dns 127.0.0.1 --name "$1" -v ~/SUBLOCC:/node test_node_image sleep 100000
